@@ -1,0 +1,11 @@
+# Mengabaikan Virtual Environment
+env/
+venv/
+.env
+
+# Mengabaikan Dataset Mentah yang Terlalu Besar
+*.csv
+*.zip
+
+# Kecuali file terjemahan yang ukurannya kecil dan wajib di-load di Streamlit
+!product_category_name_translation.csv
